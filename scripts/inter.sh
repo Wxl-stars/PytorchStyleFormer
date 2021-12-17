@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=$1 python interpolation.py \
+    --trained_network=./output/transformer_final_tv0_a1_fixdata/checkpoints/gen_00794001.pt \
+    --input_path=/data2/wuxiaolei/compare-model-pair/finalresults/add/4/content.png \
+    --style1_path=/data2/wuxiaolei/compare-model-pair/finalresults/add/4/style.png \
+    --style2_path=/data2/wuxiaolei/compare-model-pair/filteredresults/new9/style22+jiejing91/style.png \
+    --output_path=./output_full \
+    --spatial_bin=16 \
+    --alpha=0.2 \
+    --inter_selection=4 \
+    --results_path=./xiantiao/A2A1x+b1b282_new
+    #--style_path=/data1/wuxiaolei/project/grid_exp/grid_cross_final/style
+    # --selection=aAx+b \
