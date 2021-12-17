@@ -1,5 +1,5 @@
-# PytorchStyleFormer
-PyTorch implementation for the paper [StyleFormer:Real-Time_Arbitrary_Style_Transfer_via_Parametric_Style_Composition](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_StyleFormer_Real-Time_Arbitrary_Style_Transfer_via_Parametric_Style_Composition_ICCV_2021_paper.pdf)
+# StyleFormer
+Official PyTorch implementation for the paper [StyleFormer:Real-Time_Arbitrary_Style_Transfer_via_Parametric_Style_Composition](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_StyleFormer_Real-Time_Arbitrary_Style_Transfer_via_Parametric_Style_Composition_ICCV_2021_paper.pdf)
 
 ![image](https://user-images.githubusercontent.com/53161080/146366097-1c314181-1d6e-4eb7-af5a-d6b17eece7a8.png)
 
