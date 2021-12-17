@@ -298,7 +298,7 @@ class ApplyCoeffs(nn.Module):
         for i in range(self.G):
             # print(full_res_input.shape)
             # print(coeff.shape)
-            print(self.sect)
+            # print(self.sect)
             if self.sect == 'Ax+b':
                 x = torch.sum(full_res_input * coeff[:, i*(CG+1):(i+1)*(CG+1)-1, :, :], dim=1, keepdim=True) + coeff[:, (i+1)*(CG+1)-1:(i+1)*(CG+1), :, :]
             if self.sect == 'Ax':
