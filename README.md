@@ -14,7 +14,7 @@ pytorch 1.3.1
 
 ## Usage
 ### Test
-* Download pre-trained models from [google drive](https://drive.google.com/drive/folders/19F3dti6Oo_vVxgpgLiDGK4DFbckXfOD-).
+* Download pre-trained models from [google drive](https://drive.google.com/drive/folders/1l53CJxbMiaU7c17laAT9d8Q_a4arxI28).
 * Download the pre-trained [vgg](https://drive.google.com/drive/folders/19F3dti6Oo_vVxgpgLiDGK4DFbckXfOD-) networks.
 ```
  CUDA_VISIBLE_DEVICES=$1 python test.py \
