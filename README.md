@@ -21,7 +21,7 @@ pytorch 1.3.1
 git clone https://github.com/Wxl-stars/PytorchStyleFormer.git
 cd PytorchStyleFormer
 
-CUDA_VISIBLE_DEVICES=$1 python test.py \
+CUDA_VISIBLE_DEVICES={GPU_ID} python test.py \
      --trained_network={PRE-TRAINED_STYLEFORMER_MODEL} \
      --path={VGG_PATH} \
      --input_path={CONTENT_PATH} \
